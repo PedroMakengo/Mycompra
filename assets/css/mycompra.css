@@ -427,10 +427,53 @@ footer .content {
 }
 
 footer .content .footer-item {
-  height: 10rem;
+  height: 16rem;
+  width: 50%;
+}
+
+footer .content nav,
+footer .content div {
+  margin-top: 2rem;
+}
+
+footer .content div form {
+  width: 100%;
+  background: #fff;
+
+  display: flex;
+  margin-top: 1rem;
+  border: 1px solid #fff;
+}
+
+footer .content div form input {
+  width: 90%;
+  padding: 0.6rem 0;
+  border: 0;
+}
+footer .content div form button {
+  width: 15%;
+  right: auto;
+  border: 0;
+
+  background: #35358f;
+  align-items: center;
+
+  cursor: pointer;
+
+  color: #fff;
+}
+
+footer .content nav a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+
+footer .content nav a + a {
+  margin-top: 1rem;
 }
 
 footer .content .footer-item h1 {
   font-size: 1.4rem;
-  font-weight: 300;
+  font-weight: 400;
 }
