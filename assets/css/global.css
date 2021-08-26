@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #6060c9;
+  font-family: Roboto;
+  font-weight: 100;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
