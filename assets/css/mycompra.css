@@ -160,14 +160,12 @@ header .navegation a + a {
 /* Productos */
 
 .product {
-  height: 70vh;
   margin-top: 2rem;
-  margin-bottom: 4rem;
+  padding-bottom: 5rem;
   color: #fff;
 }
 
 .product .container {
-  display: flex;
   justify-content: space-between;
   flex-direction: column;
 }
@@ -178,13 +176,16 @@ header .navegation a + a {
 }
 
 .product .content {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .product .products {
+  width: 100%;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: wrap;
 
   margin-top: 2rem;
 }
@@ -193,11 +194,22 @@ header .navegation a + a {
   border-radius: 0.25rem;
   padding: 0.25rem;
   background: #4a4ab1;
-  width: 50%;
+  width: 300px;
 
   height: 22rem;
   margin-top: 2rem;
   text-align: center;
+
+  flex-direction: wrap;
+}
+
+.product .products .item-product + .item-product {
+  margin-left: 1.5rem;
+}
+
+.item-product strong,
+.item-product h1 {
+  font-weight: 100;
 }
 
 .product .products .item-product img {
@@ -206,8 +218,27 @@ header .navegation a + a {
   margin-top: -7rem;
 }
 
-.product .products .item-product + .item-product {
-  margin-left: 1.5rem;
+.product .products .item-product button {
+  width: 100px;
+  height: 2rem;
+
+  background: #4a4ab1;
+  border: 2px solid #fff;
+  border-radius: 0.25rem;
+
+  color: #fff;
+  margin-top: 1rem;
+
+  font-weight: 400;
+  font-family: Roboto;
+  transition: filter 0.2s;
+}
+
+.product .products .item-product button:hover {
+  cursor: pointer;
+  border: 2px solid #4a4ab1;
+  color: white;
+  filter: brightness(0.6);
 }
 
 .product .products .item-product .percentagem {
@@ -218,12 +249,55 @@ header .navegation a + a {
   margin: 0 auto;
 
   margin-top: 1rem;
+  margin-bottom: 1rem;
 
   display: flex;
   align-items: center;
   font-size: 1.1rem;
 
   font-weight: bold;
+}
 
-  /* padding: 1rem; */
+/* Oferta */
+.oferta-semanal {
+  margin-bottom: 5rem;
+}
+
+.oferta-semanal .container h1 {
+  margin-bottom: 2rem;
+  text-align: right;
+  font-size: 3.3rem;
+
+  color: #fff;
+}
+
+.oferta-semanal .destaque {
+  height: 50vh;
+  background: #4a4ab1;
+  padding: 1rem 2rem;
+
+  border: 3px solid #35358f;
+  border-radius: 0.25rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.oferta-semanal .destaque img {
+  width: 50%;
+}
+
+.oferta-semanal .destaque .paragraph-oferta {
+  width: 50%;
+  color: #fff;
+}
+
+.oferta-semanal .destaque .paragraph-oferta h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.oferta-semanal .destaque .paragraph-oferta p {
+  font-size: 1.4rem;
 }
