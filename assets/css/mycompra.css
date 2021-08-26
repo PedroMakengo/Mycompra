@@ -306,7 +306,79 @@ header .navegation a + a {
 .parceiros {
   margin-bottom: 4rem;
 }
+
 .parceiros h1 {
   font-size: 3rem;
   color: #fff;
+}
+
+.parceiros .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.parceiros .container .parceiro-team {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 4rem;
+}
+
+.parceiros .container .parceiro-team .item-team {
+  background: #4a4ab1;
+  border: 3px solid #35358f;
+  border-radius: 0.25rem;
+
+  width: 50%;
+  height: 250px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parceiros .container .parceiro-team .item-team + .item-team {
+  margin-left: 1rem;
+}
+
+.parceiros .container .parceiro-team .item-team img {
+  width: 60%;
+}
+
+.contacts {
+  background-color: red;
+}
+
+.contacts .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding-top: 3rem;
+}
+
+.contacts .container > h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.contact-mycompra {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contacts img {
+  width: 400px;
+}
+
+/* Footer */
+footer {
+  margin-top: 1rem;
+  height: 15rem;
+
+  color: #fff;
+
+  font-weight: 300;
 }
