@@ -294,10 +294,19 @@ header .navegation a + a {
 }
 
 .oferta-semanal .destaque .paragraph-oferta h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 2rem;
 }
 
 .oferta-semanal .destaque .paragraph-oferta p {
   font-size: 1.4rem;
+}
+
+/* Parceiros */
+.parceiros {
+  margin-bottom: 4rem;
+}
+.parceiros h1 {
+  font-size: 3rem;
+  color: #fff;
 }
