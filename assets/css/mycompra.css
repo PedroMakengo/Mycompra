@@ -92,7 +92,7 @@ header .navegation a + a {
   align-items: center;
   justify-content: center;
 
-  background: #6060e7;
+  background: #4a4ab1;
   margin-top: 2rem;
 
   color: #fff;
@@ -102,9 +102,57 @@ header .navegation a + a {
 }
 
 .content-describe a:hover {
-  filter: brightness(0.9);
+  filter: brightness(1.2);
 }
 
-.background .content-describe .link-footer-background {
+.background .link-footer-background {
+  max-width: 1120px;
+  margin: 0 auto;
   /* padding-top: 1rem; */
+
+  margin-top: -3rem;
+  margin-bottom: 5rem;
+}
+
+.background .link-footer-background a {
+  width: 3rem;
+  height: 2rem;
+
+  display: block;
+  color: #fff;
+  background: #4a4ab1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 0.25rem;
+
+  text-decoration: none;
+}
+
+.about-my-compra {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.about-my-compra .container .content-describe {
+  width: 50%;
+  display: block;
+  float: right;
+  color: #fff;
+}
+
+.about-my-compra .container .content-describe h1 {
+  margin-bottom: 2rem;
+  font-size: 4rem;
+}
+
+.about-my-compra .container .content-describe p {
+  font-size: 1.3rem;
+}
+
+.about-my-compra .container .content-describe p + p {
+  margin-top: 2rem;
 }
