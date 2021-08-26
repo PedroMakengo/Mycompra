@@ -1,0 +1,63 @@
+body {
+  background-image: url(../../assets/images/shoes/15.webp);
+  background-position: center;
+  background-position-x: 35rem;
+  background-repeat: no-repeat;
+
+  font-family: Roboto;
+}
+
+.background-login {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login {
+  background: #fff;
+  height: 100vh;
+  width: 30%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  padding: 0 2rem;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+
+.login form input {
+  padding: 0.7rem 1rem;
+  margin-top: 1rem;
+
+  border: 2px solid #4a4ab1;
+}
+.login form input[type="button"] {
+  background: #4a4ab1;
+  color: #fff;
+}
+.bg {
+  width: 80%;
+  padding: 3rem;
+  color: #fff;
+}
+
+.bg h1 {
+  font-size: 5rem;
+  font-family: Roboto;
+}
+
+.bg p {
+  font-size: 2rem;
+  font-weight: 300s;
+  margin-top: 2rem;
+  width: 60%;
+}

@@ -105,6 +105,10 @@ header .navegation a + a {
   transition: filter 0.2s;
 }
 
+.content-describe a.compra i {
+  margin-right: 1rem;
+}
+
 .content-describe a:hover {
   filter: brightness(1.2);
 }
