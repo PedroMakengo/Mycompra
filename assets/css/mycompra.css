@@ -228,19 +228,30 @@ header .navegation a + a {
 
 .product .products .item-product a {
   display: block;
-  width: 100px;
-  height: 2rem;
+  width: 140px;
+  height: 2.3rem;
 
   background: #4a4ab1;
   border: 2px solid #fff;
   border-radius: 0.25rem;
 
   color: #fff;
-  margin-top: 1rem;
 
   font-weight: 400;
   font-family: Roboto;
   transition: filter 0.2s;
+
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem auto;
+
+  text-decoration: none;
+}
+
+.product .products .item-product a i {
+  margin-right: 0.6rem;
 }
 
 .product .products .item-product button:hover {
