@@ -361,3 +361,46 @@ tbody td.action a {
   filter: brightness(1.2);
   cursor: pointer;
 }
+
+/* Perfil */
+.card form {
+  border-radius: 0.25rem;
+  margin-top: 2rem;
+
+  height: 80%;
+  margin-top: 2rem;
+}
+
+.card form input {
+  padding: 0.9rem 1rem;
+  border: 0;
+  color: #ffffff;
+  background: #7d7dff;
+}
+.card form .form-group {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.card form .form-group input {
+  width: 28rem;
+}
+.card form .form-group input + input {
+  margin-left: 1rem;
+}
+.card form input::placeholder {
+  color: #9696967a;
+}
+
+.form-group img {
+  width: 130px;
+  height: 130px;
+
+  border-radius: 50%;
+
+  border: 5px solid #fff;
+}
