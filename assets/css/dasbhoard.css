@@ -221,12 +221,9 @@ article .card {
 }
 
 article .card table {
-  width: 100%;
+  width: 105%;
   margin-top: 1rem;
-  border-radius: 1rem;
   border-spacing: 0 0.5rem;
-
-  overflow-y: auto;
 }
 
 article .card table thead th {
