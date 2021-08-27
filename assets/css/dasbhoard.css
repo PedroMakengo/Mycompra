@@ -215,3 +215,35 @@ article .card {
   padding: 2rem;
   color: #fff;
 }
+
+article .card table {
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  border-spacing: 0 0.5rem;
+}
+
+article .card table thead {
+  border-radius: 1rem;
+}
+
+article .card table thead th {
+  padding: 0.8rem 1rem;
+  font-weight: 300;
+  text-align: left;
+}
+
+tbody {
+  overflow-y: scroll;
+}
+
+tbody tr {
+  height: 10px;
+  background: #6060c9;
+}
+
+tbody td {
+  height: 10px;
+  padding: 1rem 1rem;
+  font-weight: bold;
+}
