@@ -216,15 +216,17 @@ article .card {
   color: #fff;
 }
 
+.responsive-table {
+  width: 700px;
+}
+
 article .card table {
   width: 100%;
   margin-top: 1rem;
   border-radius: 1rem;
   border-spacing: 0 0.5rem;
-}
 
-article .card table thead {
-  border-radius: 1rem;
+  overflow-y: auto;
 }
 
 article .card table thead th {
@@ -233,12 +235,7 @@ article .card table thead th {
   text-align: left;
 }
 
-tbody {
-  overflow-y: hidden;
-}
-
 tbody tr {
-  height: 10px;
   background: #6060c9;
 }
 
@@ -254,6 +251,8 @@ tbody td.action a {
 
   color: #fff;
 }
+
+/* Productos */
 
 .card-store {
   display: flex;
