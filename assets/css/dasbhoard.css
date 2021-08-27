@@ -144,6 +144,12 @@ main .charts .chart {
   color: #fff;
 }
 
+#mycompra-chart {
+  margin-top: 1rem;
+  padding: 0;
+  height: 250px;
+}
+
 main .charts .table {
   width: 32%;
   height: 45.4vh;
@@ -153,4 +159,43 @@ main .charts .table {
 
   padding: 2rem;
   color: #fff;
+}
+
+main .table .rede-socia {
+  height: 240px;
+  overflow-y: scroll;
+}
+
+main .charts .rede-socia::-webkit-scrollbar {
+  width: 2px;
+}
+
+main .table .rede-item-socia {
+  margin-top: 1rem;
+  background: #6060c9;
+  padding: 0.6rem;
+
+  display: flex;
+  align-items: center;
+
+  color: #fff;
+  text-decoration: none;
+
+  transition: filter 0.3s;
+}
+
+main .table .rede-item-socia:hover {
+  filter: brightness(1.4);
+}
+
+main .table .rede-item-socia img {
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50%;
+  margin-right: 0.8rem;
+}
+
+main .table .rede-item-socia small {
+  display: block;
 }
