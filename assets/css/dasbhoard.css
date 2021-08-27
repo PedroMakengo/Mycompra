@@ -262,6 +262,7 @@ tbody td.action a {
   overflow-y: scroll;
 }
 
+.team-socia::-webkit-scrollbar,
 .card-store::-webkit-scrollbar {
   width: 2px;
 }
@@ -294,4 +295,69 @@ tbody td.action a {
 
 .card-store img {
   width: 50%;
+}
+
+/* Team */
+.team-socia {
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  height: 350px;
+  overflow-y: scroll;
+
+  margin-top: 2rem;
+}
+
+.team-socia .socia {
+  width: 48%;
+  height: 150px;
+
+  background: #7d7dff;
+  border-radius: 0.25rem;
+
+  padding: 0.25rem 1rem;
+
+  margin: 0 0.8rem 0.4rem 0;
+
+  display: flex;
+  align-items: center;
+}
+
+.team-socia .socia img {
+  width: 70px;
+  height: 70px;
+
+  border-radius: 50%;
+  border: 2px solid #4a4ab1;
+
+  margin-right: 1rem;
+  margin-left: 2rem;
+}
+
+.team-socia .socia p {
+  margin-bottom: 0.4rem;
+  font-weight: 300;
+}
+
+.team-socia .socia small {
+  display: block;
+  margin-top: 0.4rem;
+}
+
+.team-socia .socia button {
+  background: #4a4ab1;
+  border: 0;
+
+  color: #fff;
+  padding: 0.25rem 1rem;
+  margin-top: 0.5rem;
+
+  transition: filter 0.2s;
+}
+
+.team-socia .socia button:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
 }
