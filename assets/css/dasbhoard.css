@@ -67,6 +67,10 @@ main .container aside nav a {
   transition: filter 0.2s;
 }
 
+main .container aside nav a.active {
+  background: #7d7dff;
+}
+
 main .container aside nav a:hover {
   filter: brightness(1.3);
 }
@@ -198,4 +202,16 @@ main .table .rede-item-socia img {
 
 main .table .rede-item-socia small {
   display: block;
+}
+
+/* Article */
+article .card {
+  background-color: #4a4ab1;
+  border-radius: 0.25rem;
+
+  width: 100%;
+  height: 100%;
+
+  padding: 2rem;
+  color: #fff;
 }
