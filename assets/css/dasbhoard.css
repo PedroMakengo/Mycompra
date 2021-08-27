@@ -234,7 +234,7 @@ article .card table thead th {
 }
 
 tbody {
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 
 tbody tr {
@@ -246,4 +246,56 @@ tbody td {
   height: 10px;
   padding: 1rem 1rem;
   font-weight: bold;
+}
+
+tbody td.action a {
+  margin-right: 1rem;
+  text-decoration: none;
+
+  color: #fff;
+}
+
+.card-store {
+  display: flex;
+  align-items: center;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.card-store::-webkit-scrollbar {
+  width: 2px;
+}
+
+.card-store .card-item {
+  width: 48%;
+
+  background: #7d7dff;
+  border-radius: 0.25rem;
+
+  padding: 0.25rem 2rem;
+
+  margin: 0 0.8rem 0.4rem 0;
+}
+
+.card-store .card-item a {
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+
+  display: block;
+  width: 120px;
+  background: #4a4ab1;
+  padding: 0.25rem;
+
+  margin-top: 0.6rem;
+
+  border-radius: 0.25rem;
+}
+
+.card-store img {
+  width: 50%;
 }
