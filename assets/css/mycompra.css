@@ -226,7 +226,8 @@ header .navegation a + a {
   margin-top: -7rem;
 }
 
-.product .products .item-product button {
+.product .products .item-product a {
+  display: block;
   width: 100px;
   height: 2rem;
 

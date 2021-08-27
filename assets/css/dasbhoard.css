@@ -430,3 +430,105 @@ tbody td.action a {
   align-items: center;
   justify-content: space-between;
 }
+
+.value {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.value button {
+  margin-left: 1rem;
+
+  width: 150px;
+  height: 2rem;
+
+  border: 0;
+  background: #6060c9;
+
+  color: #fff;
+
+  font-weight: bold;
+}
+
+.product-item {
+  margin-top: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-item .item-img {
+  width: 60%;
+}
+.product-item img {
+  width: 300px;
+  text-align: center;
+}
+
+.product-item .carrinho-compra {
+  width: 60%;
+}
+
+.product-item .carrinho-compra .item-compra {
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #7d7dff;
+
+  padding-bottom: 1rem;
+}
+
+.produt {
+  border-bottom: 2px solid #7d7dff;
+  padding-bottom: 1rem;
+}
+
+.produt h1 {
+  margin-bottom: 1rem;
+}
+
+.buttons-compra {
+  margin-top: 1rem;
+
+  display: flex;
+}
+.buttons-compra #res {
+  width: 30px;
+  height: 36px;
+  background: #fff;
+
+  color: #000;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons-compra .increment-decrement {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-left: 1px solid #e0e0e0;
+}
+
+.buttons-compra .increment-decrement button {
+  width: 100%;
+  border: 0;
+  background: #fff;
+}
+.buttons-compra > button {
+  width: 200px;
+  border: 1px solid #3cc982;
+  background: #3cc982;
+
+  font-weight: bold;
+  color: #fff;
+}
+
+.buttons-compra > button i {
+  margin-right: 1rem;
+}
+
+.obs h3 {
+  font-weight: 200;
+}
