@@ -90,10 +90,29 @@ main .container article .static-card .card {
   padding: 1rem;
 }
 
+main .container article .static-card .card:last-child {
+  background: linear-gradient(#3cc982, #3cc982);
+  backdrop-filter: blur(10px);
+}
+
 main .container article .static-card .card h1 {
+  color: #fff;
   font-weight: 300;
 }
 
 main .container article .static-card .card + .card {
   margin-left: 1rem;
+}
+
+main .container article .card .card-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 2rem;
+  color: #fff;
+}
+
+main .container article .card .card-item h2 {
+  font-weight: 100;
 }
