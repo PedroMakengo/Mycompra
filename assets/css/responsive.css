@@ -1,4 +1,42 @@
-@media (max-width: 360px) {
+.divmobile {
+  display: none;
 }
+@media (max-width: 360px) {
+  header,
+  main,
+  footer {
+    display: none;
+  }
+  .divmobile {
+    display: block;
+    width: 80%;
+  }
+}
+
 @media (max-width: 375px) {
+  header,
+  main,
+  footer {
+    display: none;
+  }
+  .divmobile {
+    display: block;
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .divmobile h1 {
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+  .divmobile p {
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
 }
