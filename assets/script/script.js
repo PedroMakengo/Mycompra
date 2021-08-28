@@ -1,17 +1,18 @@
 // Calcular o tamanho do body
-const downLink = document.querySelector("#down-link");
+// function myScroll() {
+//   const windowTop = window.pageYOffset;
+//   if (windowTop > 461) {
+//   } else {
+//   }
+// }
 
-function myScroll() {
-  const windowTop = window.pageYOffset;
-  if (windowTop > 461) {
-    downLink.style.display = "none";
-    downLink.style.transition = "ease 1s";
-  } else {
-    downLink.style.display = "block";
-    downLink.style.transition = "ease 1s";
-  }
-}
+// window.addEventListener("scroll", function () {
+//   myScroll();
+// });
 
-window.addEventListener("scroll", function () {
-  myScroll();
-});
+// Adicionar ao carrinho
+const btnCarrinho = document.querySelector("#adicionarCarrinho");
+const defaut = Number(document.querySelector("#value").innerText);
+const finalCompra = document.querySelector("#finalCompra");
+
+btnCarrinho.addEventListener("click", function () {});

@@ -516,6 +516,7 @@ tbody td.action a {
   border: 0;
   background: #fff;
 }
+
 .buttons-compra > button {
   width: 200px;
   border: 1px solid #3cc982;
@@ -523,6 +524,13 @@ tbody td.action a {
 
   font-weight: bold;
   color: #fff;
+
+  transition: filter 0.2s;
+}
+
+.buttons-compra > button:hover {
+  filter: brightness(0.8);
+  cursor: pointer;
 }
 
 .buttons-compra > button i {
