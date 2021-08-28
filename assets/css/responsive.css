@@ -11,6 +11,10 @@
     display: block;
     width: 80%;
   }
+  .divmobile img {
+    width: 20%;
+    margin-bottom: 2rem;
+  }
 }
 
 @media (max-width: 375px) {
@@ -28,6 +32,10 @@
     display: flex;
     align-items: center;
     text-align: center;
+  }
+  .divmobile img {
+    width: 20%;
+    margin-bottom: 2rem;
   }
   .divmobile h1 {
     color: #fff;
