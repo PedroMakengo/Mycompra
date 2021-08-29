@@ -143,6 +143,11 @@ header .navegation a + a {
   height: 70vh;
   display: flex;
   align-items: center;
+
+  background-image: url(../images/shoes/16.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position-x: -10rem;
 }
 
 .about-my-compra .container .content-describe {
@@ -424,8 +429,6 @@ header .navegation a + a {
 
 /* Footer */
 footer {
-  margin-top: 1rem;
-
   color: #fff;
   font-weight: 300;
 
