@@ -27,7 +27,7 @@
             <p>Fale Connosco: 921 538 972</p>
           </div>
           <div class="talk-link">
-            <a href="dashboard/index.html"
+            <a href="/dashboard"
               ><i class="fas fa-user-circle"></i>
               <strong> Pedro Makengo</strong>
             </a>
@@ -97,7 +97,7 @@
               <div class="percentagem">10% Desconto</div>
               <h1>10.000 KZ</h1>
 
-              <a href="dashboard/carrinho.html"
+              <a href="dashboard/carrinho"
                 ><i class="fas fa-shopping-bag"></i> Adicionar</a
               >
             </div>
@@ -107,7 +107,7 @@
               <div class="percentagem">10% Desconto</div>
               <h1>10.000 KZ</h1>
 
-              <a href="dashboard/carrinho.html"
+              <a href="dashboard/carrinho"
                 ><i class="fas fa-shopping-bag"></i> Adicionar</a
               >
             </div>
@@ -117,7 +117,7 @@
               <div class="percentagem">10% Desconto</div>
               <h1>10.000 KZ</h1>
 
-              <a href="dashboard/carrinho.html"
+              <a href="dashboard/carrinho"
                 ><i class="fas fa-shopping-bag"></i> Adicionar</a
               >
             </div>
@@ -127,7 +127,7 @@
               <div class="percentagem">10% Desconto</div>
               <h1>10.000 KZ</h1>
 
-              <a href="dashboard/carrinho.html"
+              <a href="dashboard/carrinho"
                 ><i class="fas fa-shopping-bag"></i> Adicionar</a
               >
             </div>
@@ -140,7 +140,7 @@
               <div class="percentagem">10% Desconto</div>
               <h1>10.000 KZ</h1>
 
-              <a href="dashboard/carrinho.html"
+              <a href="dashboard/carrinho"
                 ><i class="fas fa-shopping-bag"></i> Adicionar</a
               >
             </div>
@@ -150,7 +150,7 @@
               <div class="percentagem">10% Desconto</div>
               <h1>10.000 KZ</h1>
 
-              <a href="dashboard/carrinho.html"
+              <a href="dashboard/carrinho"
                 ><i class="fas fa-shopping-bag"></i> Adicionar</a
               >
             </div>
@@ -160,7 +160,7 @@
               <div class="percentagem">10% Desconto</div>
               <h1>10.000 KZ</h1>
 
-              <a href="dashboard/carrinho.html"
+              <a href="dashboard/carrinho"
                 ><i class="fas fa-shopping-bag"></i> Adicionar</a
               >
             </div>
@@ -170,7 +170,7 @@
               <div class="percentagem">10% Desconto</div>
               <h1>10.000 KZ</h1>
 
-              <a href="dashboard/carrinho.html"
+              <a href="dashboard/carrinho"
                 ><i class="fas fa-shopping-bag"></i> Adicionar</a
               >
             </div>
@@ -216,12 +216,24 @@
           <h1>Contactos</h1>
 
           <div class="contact-mycompra">
-            <form action="">
-              <input type="text" placeholder="Insira o seu nome" />
-              <input type="email" placeholder="Insira o seu email" />
-              <input type="tel" placeholder="Insira o seu tel" />
-              <textarea name="" id="" cols="30" rows="10"></textarea>
-              <button><i class="fas fa-envelope"></i> Enviar comentário</button>
+            <form action="/save" method="POST" id="form-compra">
+              <input type="text" placeholder="Insira o seu nome" name="name" />
+              <input
+                type="email"
+                placeholder="Insira o seu email"
+                name="email"
+              />
+              <input type="tel" placeholder="Insira o seu tel" name="tel" />
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                name="describe"
+              ></textarea>
+              <button type="submit" form="#form-compra">
+                <i class="fas fa-envelope"></i> Enviar comentário
+              </button>
             </form>
             <img src="/images/shoes/contact.png" alt="" />
           </div>
@@ -234,7 +246,6 @@
         <div class="content">
           <div class="footer-item">
             <h1>Acerca</h1>
-
             <nav>
               <a href="">Sobre Nós</a>
               <a href="">Contactos</a>
